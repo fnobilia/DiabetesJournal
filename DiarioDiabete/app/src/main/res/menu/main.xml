@@ -1,0 +1,18 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="it.nobilia.diariodiabete.MainActivity">
+
+    <item
+        android:id="@+id/action_call"
+        android:title="@string/action_call"
+        android:icon="@drawable/ic_menu_sos"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_legend"
+        android:title="@string/action_legend"
+        app:showAsAction="always" />
+
+</menu>

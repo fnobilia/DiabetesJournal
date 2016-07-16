@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Diario Diabete</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_call">SOS call</string>
+    <string name="action_legend">Legend</string>
+
+    <string-array name="sections">
+        <item>Profilo</item>
+        <item>Diario</item>
+        <item>Grafici</item>
+        <item>PDF</item>
+        <item>SOS</item>
+    </string-array>
+
+    <string-array name="sections_icons">
+        <item>@drawable/ic_menu_user</item>
+        <item>@drawable/ic_menu_diary</item>
+        <item>@drawable/ic_menu_charts</item>
+        <item>@drawable/ic_menu_pdf</item>
+        <item>@drawable/ic_menu_call_sos</item>
+    </string-array>
+
+    <!-- PROFILE -->
+    <string name="name">Nome</string>
+    <string name="hint_name">Inserisci il tuo nome</string>
+    <string name="surname">Cognome</string>
+    <string name="hint_surname">Inserisci il tuo cognome</string>
+    <string name="height">Altezza</string>
+    <string name="hint_height">Inserisci la tua altezza</string>
+    <string name="height_unity">cm</string>
+    <string name="weight">Peso</string>
+    <string name="hint_weight">Inserisci il tuo peso</string>
+    <string name="weight_unity">Kg</string>
+    <string name="birth">Nascita</string>
+    <string name="hint_birth">Inserisci il tuo compleanno</string>
+    <string name="gender">Sesso</string>
+    <string name="male">Maschio</string>
+    <string name="female">Femmina</string>
+    <string name="hint_gender">Inserisci il tuo sesso</string>
+    <string name="email">Email</string>
+    <string name="hint_email">Inserisci la tua mail</string>
+    <string name="sos">SOS</string>
+    <string name="hint_sos">Inserisci recapito per emergenze</string>
+    <string name="hint_sos_fragment">Aggiorna il tuo profilo</string>
+    <string name="save">Salva</string>
+    <string name="contact_saved">Profilo aggiornato!</string>
+
+    <!-- DIARY -->
+    <string-array name="periods">
+        <item>Seleziona periodo</item>
+        <item>Di notte</item>
+        <item>Al risveglio</item>
+        <item>2h dopo colazione</item>
+        <item>Prima di pranzo</item>
+        <item>2h dopo pranzo</item>
+        <item>Prima di cena</item>
+        <item>2h dopo cena</item>
+        <item>Prima di coricarsi</item>
+    </string-array>
+
+    <string-array name="periods_short">
+        <item>N</item>
+        <item>R</item>
+        <item>2h d C</item>
+        <item>P P</item>
+        <item>2h d P</item>
+        <item>P C</item>
+        <item>2h d C</item>
+        <item>P C</item>
+    </string-array>
+
+    <string name="glycaemia">Glicemia</string>
+    <string name="glycaemia_short">Glic</string>
+    <string name="glycaemia_empty">Inserisci il valore della Glicemia</string>
+    <string name="unity_glycaemia">mg/dl</string>
+    <string name="insulin">Insulina</string>
+    <string name="insulin_short">Insu</string>
+    <string name="unity_insulin">unità</string>
+    <string name="hint_value">Inserisci il valore</string>
+    <string name="period">Periodo</string>
+    <string name="period_empty">Seleziona il periodo</string>
+    <string name="cancel">Chiudi</string>
+    <string name="time">Orario</string>
+    <string name="date">Data</string>
+
+    <string name="empty_diary">Diario vuoto</string>
+
+    <!-- SOS -->
+    <string name="sos_info">Numero da usare in caso di emergenza</string>
+    <string name="sos_call">Chiama</string>
+
+    <!-- SAMPLE_DELETE -->
+    <string name="sample_title">Misurazione</string>
+    <string name="delete">Elimina</string>
+
+    <!-- PDF -->
+    <string name="pdf_info">Genera e mostra il pdf contenente tutte le misurazioni</string>
+    <string name="pdf_create">Crea</string>
+    <string name="pdf_recreate">Crea</string>
+    <string name="pdf_open">Open</string>
+    <string name="pdf_empty">Impossibile generare il PDF. Diario vuoto.</string>
+    <string name="pdf_generating">Creazione del pdf ...</string>
+    <string name="pdf_sending">Apertura pdf ...</string>
+    <string name="pdf_file">Diario_Diabete</string>
+    <string name="pdf_file_ok_open_ok">File generato e aperto correttamente!</string>
+    <string name="pdf_file_ok_open_ko">Impossibile aprire il file </string>
+    <string name="open_ok">File aperto correttamente!</string>
+    <string name="open_ko">Impossibile aprire il file </string>
+    <string name="pdf_file_ko">Impossibile generare il file!</string>
+
+    <!-- CHART -->
+    <string name="chart_day">Glicemia giornalieri</string>
+    <string name="chart_month">Glicemia media mensile</string>
+
+</resources>

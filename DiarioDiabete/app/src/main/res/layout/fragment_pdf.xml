@@ -1,0 +1,45 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="it.nobilia.diariodiabete.fragment.SosFragment">
+
+    <Button
+        android:id="@+id/pdf_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:text="@string/pdf_create"
+        android:textColor="@color/white"
+        android:background="@drawable/button_save"/>
+
+    <Button
+        android:id="@+id/pdf_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pdf_create"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:text="@string/pdf_open"
+        android:textColor="@color/white"
+        android:background="@drawable/button_save"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_above="@id/pdf_create"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:text="@string/pdf_info"/>
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="it.nobilia.diariodiabete.fragment.SosFragment">
+
+    <Button
+        android:id="@+id/sos_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:text="@string/sos_call"
+        android:textColor="@color/white"
+        android:background="@drawable/button_save"/>
+
+    <TextView
+        android:id="@+id/sos_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_above="@id/sos_call"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="3476117282"/>
+
+    <TextView
+        android:id="@+id/sos_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="@string/sos_info"
+        android:layout_above="@id/sos_tv"/>
+
+</RelativeLayout>

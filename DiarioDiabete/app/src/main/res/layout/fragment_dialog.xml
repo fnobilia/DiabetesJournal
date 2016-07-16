@@ -1,0 +1,175 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/glycaemia_relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+
+            <TextView
+                android:id="@+id/glycaemia_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/glycaemia"
+                android:textSize="14dp"
+                android:textColor="@color/dark_gray"
+                android:background="@color/transparent"/>
+
+            <TextView
+                android:id="@+id/glycaemia_unity_lable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:text="@string/unity_glycaemia"
+                android:textSize="14dp"
+                android:textColor="@color/dark_gray"
+                android:background="@color/transparent"/>
+
+            <EditText
+                android:id="@+id/glycaemia_et"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                android:ellipsize="start"
+                android:gravity="left|center_vertical"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:background="@color/transparent"
+                android:hint="@string/hint_value"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:layout_toRightOf="@id/glycaemia_label"
+                android:layout_toLeftOf="@id/glycaemia_unity_lable"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/insulin_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/glycaemia_relative">
+
+        <TextView
+            android:id="@+id/insulin_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/insulin"
+            android:textSize="14dp"
+            android:textColor="@color/dark_gray"
+            android:background="@color/transparent"/>
+
+        <TextView
+            android:id="@+id/insulin_unity_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="@string/unity_insulin"
+            android:textSize="14dp"
+            android:textColor="@color/dark_gray"
+            android:background="@color/transparent"/>
+
+        <EditText
+            android:id="@+id/insulin_et"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:ellipsize="start"
+            android:gravity="left|center_vertical"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:background="@color/transparent"
+            android:hint="@string/hint_value"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/gray"
+            android:layout_toRightOf="@id/insulin_label"
+            android:layout_toLeftOf="@id/insulin_unity_lable"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/period_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/period_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/birth"
+            android:textSize="14dp"
+            android:textColor="@color/dark_gray"
+            android:background="@color/transparent"/>
+
+        <Spinner
+            android:id="@+id/periods_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="21dp"
+            android:layout_toRightOf="@id/period_label"
+            android:popupBackground="@color/android_gray"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/date_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/date_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/date"
+            android:textSize="14dp"
+            android:textColor="@color/dark_gray"
+            android:background="@color/transparent"/>
+
+        <TextView
+            android:id="@+id/show_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="83dp"
+            android:textSize="16dp"
+            android:textColor="@color/gray"
+            android:background="@color/transparent"/>
+
+        <TextView
+            android:id="@+id/show_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="155dp"
+            android:textSize="16dp"
+            android:textColor="@color/gray"
+            android:background="@color/transparent"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

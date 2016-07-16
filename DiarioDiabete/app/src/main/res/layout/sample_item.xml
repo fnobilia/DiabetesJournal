@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sample_item_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="5dp"
+        android:layout_height="50dp"
+        android:background="@color/orange"/>
+
+    <RelativeLayout
+        android:id="@+id/glycaemia_relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/line"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/glycaemia_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/glycaemia"
+            android:textSize="14dp"
+            android:textColor="@color/dark_gray"
+            android:background="@color/transparent"
+            android:lines="1"/>
+
+        <TextView
+            android:id="@+id/glycaemia_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/glycaemia_label"
+            android:layout_marginLeft="5dp"
+            android:text="12"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@color/transparent"
+            android:lines="1"/>
+
+        <TextView
+            android:id="@+id/glycaemia_unity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/glycaemia_value"
+            android:layout_marginLeft="5dp"
+            android:text="@string/unity_glycaemia"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@color/transparent"
+            android:lines="1"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/insulin_relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/glycaemia_relative"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/insulin_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/insulin"
+            android:textSize="14dp"
+            android:textColor="@color/dark_gray"
+            android:background="@color/transparent"
+            android:lines="1"/>
+
+        <TextView
+            android:id="@+id/insulin_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/insulin_label"
+            android:layout_marginLeft="5dp"
+            android:text="12"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@color/transparent"
+            android:lines="1"/>
+
+        <TextView
+            android:id="@+id/insulin_unity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/insulin_value"
+            android:layout_marginLeft="5dp"
+            android:text="@string/unity_insulin"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@color/transparent"
+            android:lines="1"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/date_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01 Gennaio 2015"
+        android:textSize="14dp"
+        android:textColor="@color/dark_gray"
+        android:background="@color/transparent"
+        android:layout_below="@+id/glycaemia_relative"
+        android:layout_alignStart="@+id/glycaemia_relative"/>
+
+    <TextView
+        android:id="@+id/time_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:30"
+        android:textSize="14dp"
+        android:textColor="@color/dark_gray"
+        android:background="@color/transparent"
+        android:layout_below="@+id/insulin_relative"
+        android:layout_alignStart="@+id/insulin_relative"/>
+
+    <TextView
+        android:id="@+id/period_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/insulin_relative"
+        android:layout_toRightOf="@id/time_value"
+        android:layout_marginLeft="17dp"
+        android:textSize="14dp"
+        android:textColor="@color/dark_gray"/>
+
+</RelativeLayout>
+

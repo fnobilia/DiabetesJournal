@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="it.perilli.diariodiabete.fragment.DiaryFragmentr">
+
+    <TextView
+        android:id="@+id/empty_diary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="16dp"
+        android:text="@string/empty_diary"
+        android:textColor="@color/red"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <ListView android:id="@id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:layout_weight="1"
+        android:drawSelectorOnTop="false"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:id="@+id/add_button"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:text="+"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:background="@drawable/ripple"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:elevation="3dp"
+        android:paddingBottom="16dp"
+        android:fontFamily="sans-serif-light"
+        android:layout_gravity="right|bottom" />
+
+</FrameLayout>

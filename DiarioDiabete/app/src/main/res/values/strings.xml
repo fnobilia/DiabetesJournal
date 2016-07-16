@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Diabetes Journal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_call">SOS call</string>
+    <string name="action_legend">Legend</string>
+
+    <string-array name="sections">
+        <item>Profile</item>
+        <item>Journal</item>
+        <item>Statistics</item>
+        <item>PDF</item>
+        <item>SOS</item>
+    </string-array>
+
+    <string-array name="sections_icons">
+        <item>@drawable/ic_menu_user</item>
+        <item>@drawable/ic_menu_diary</item>
+        <item>@drawable/ic_menu_charts</item>
+        <item>@drawable/ic_menu_pdf</item>
+        <item>@drawable/ic_menu_call_sos</item>
+    </string-array>
+
+    <!-- PROFILE -->
+    <string name="name">Name</string>
+    <string name="hint_name">Insert your name</string>
+    <string name="surname">Surname</string>
+    <string name="hint_surname">Insert your surname</string>
+    <string name="height">Height</string>
+    <string name="hint_height">Insert your height</string>
+    <string name="height_unity">cm</string>
+    <string name="weight">weight</string>
+    <string name="hint_weight">Insert your weight</string>
+    <string name="weight_unity">Kg</string>
+    <string name="birth">Birth</string>
+    <string name="hint_birth">Insert your Birth</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="hint_gender">Select your gender</string>
+    <string name="email">Email</string>
+    <string name="hint_email">Insert your email</string>
+    <string name="sos">SOS</string>
+    <string name="hint_sos">Insert SOS number</string>
+    <string name="hint_sos_fragment">Update your profile</string>
+    <string name="save">Save</string>
+    <string name="contact_saved">Profile updated!</string>
+
+    <!-- DIARY -->
+    <string-array name="periods">
+        <item>Select period</item>
+        <item>Nighttime</item>
+        <item>Awakening</item>
+        <item>2h after breakfast</item>
+        <item>Before lunch</item>
+        <item>2h after lunch</item>
+        <item>Before dinner</item>
+        <item>2h after dinner</item>
+        <item>Before sleeping</item>
+    </string-array>
+
+    <string-array name="periods_short">
+        <item>N</item>
+        <item>A</item>
+        <item>2h a B</item>
+        <item>B L</item>
+        <item>2h a L</item>
+        <item>B D</item>
+        <item>2h a D</item>
+        <item>B S</item>
+    </string-array>
+
+    <string name="glycaemia">Glycaemia</string>
+    <string name="glycaemia_short">Glyc</string>
+    <string name="glycaemia_empty">Insert Glycaemia value</string>
+    <string name="unity_glycaemia">mg/dl</string>
+    <string name="insulin">Insulin</string>
+    <string name="insulin_short">Insu</string>
+    <string name="unity_insulin">unit</string>
+    <string name="hint_value">Insert value</string>
+    <string name="period">Time slot</string>
+    <string name="period_empty">Select the time slot</string>
+    <string name="cancel">Close</string>
+    <string name="time">Time</string>
+    <string name="date">Date</string>
+
+    <string name="empty_diary">Empty journal</string>
+
+    <!-- SOS -->
+    <string name="sos_info">Phone number for emergency</string>
+    <string name="sos_call">Call</string>
+
+    <!-- SAMPLE_DELETE -->
+    <string name="sample_title">Sample</string>
+    <string name="delete">Delete</string>
+
+    <!-- PDF -->
+    <string name="pdf_info">Generate the PDF version of your journal</string>
+    <string name="pdf_create">Create</string>
+    <string name="pdf_recreate">Create</string>
+    <string name="pdf_open">Open</string>
+    <string name="pdf_empty">Error generating the PDF. Your journal is empty.</string>
+    <string name="pdf_generating">Creating pdf ...</string>
+    <string name="pdf_sending">Opening pdf ...</string>
+    <string name="pdf_file">Diabetes_Journal</string>
+    <string name="pdf_file_ok_open_ok">File correctly generated and opened!</string>
+    <string name="pdf_file_ok_open_ko">File cannot be opened </string>
+    <string name="open_ok">File correctly opened!</string>
+    <string name="open_ko">File cannot be opened </string>
+    <string name="pdf_file_ko">File cannot be generated!</string>
+
+    <!-- CHART -->
+    <string name="chart_day">Daily Glycaemia</string>
+    <string name="chart_month">Monthly Glicemia</string>
+
+</resources>

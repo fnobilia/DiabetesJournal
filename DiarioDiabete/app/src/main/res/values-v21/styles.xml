@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:ThemeOverlay.Material.Light">
+        <item name="android:colorPrimary">@color/blue</item>
+        <item name="android:colorPrimaryDark">@color/dark_blue</item>
+        <item name="android:colorAccent">@color/yellow</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>
